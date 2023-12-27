@@ -18,12 +18,12 @@ export class HeaderComponent implements OnInit {
   };
 
   public menuEspanol: any = {
-    home: 'INICIO',
+    home: 'INICIOoooo',
     sobreMi: 'SOBRE MÍ',
     formacion: 'FORMACIÓN',
     habilidades: 'HABILIDADES',
     portfolio:'PORTFOLIO',
-    contacto: 'CONTACTO'
+    contacto: 'CONTACTOoo'
   };
   public menu: any = this.menuEspanol;
 
