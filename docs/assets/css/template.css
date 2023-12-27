@@ -4183,7 +4183,7 @@ a[rel~="gallery"]:hover {
   
   margin: 1px;
 
-  --img-url: url(../../../assets/images/logoEsi.png);
+  /*--img-url: url(../../../assets/images/logoEsi.png);*/
 }
 
 
