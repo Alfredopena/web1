@@ -14,6 +14,7 @@ export class SkillsComponent implements OnInit, OnChanges {
   // TITLE 
   public headEnglish: any = { title: 'MY SKILLS', subtitle: 'SKILLS AND TOOLS' };
   public headEspanol: any = { title: 'HABILIDADES', subtitle: 'HABILIDADES Y HERRAMIENTAS' };
+  //public hardSkills: any={title:'TECNOLOGÍAS QUE DOMINO'}
   public head: any = this.headEnglish;
 
 
@@ -74,24 +75,37 @@ export class SkillsComponent implements OnInit, OnChanges {
 
 
   // ESPANOL
-  public habilidad_1: any = [
+  public hardSkills: any = [
 
     [{
-      title: 'Java',
-      progress: 50
+      title: 'Angular',
+      progress: 75
+    }],
+    [{
+      title: 'Ionic',
+      progress: 75
+    }],
+    [{
+      title: '.Net',
+      progress: 75
     }],
     [{
       title: 'C',
+      progress: 75
+    }],
+    [{
+      title: 'Java',
+      progress: 75
+    }],
+    [{
+      title: 'Python',
       progress: 50
     }],
     [{
-      title: 'C#.Net',
-      progress: 50
+      title: 'C#',
+      progress: 75
     }],
-    [{
-      title: 'Angular/Ionic',
-      progress: 50
-    }]
+    
   ];
 
   public habilidad_2: any = [
@@ -106,7 +120,7 @@ export class SkillsComponent implements OnInit, OnChanges {
     }]
   ];
 
-  public habilidad_3: any = [
+  public softSkills: any = [
 
     [{
       title: 'Elocuente',
@@ -117,22 +131,26 @@ export class SkillsComponent implements OnInit, OnChanges {
       progress: 90
     }],
     [{
-      title: 'Amante de aprender cosas nuevas',
+      title: 'Creativo',
       progress: 100
-    }]
+    }],
+    [{
+      title: 'Trabajo en equipo',
+      progress: 100
+    }],
+
   ];
 
 
   public skillEspanol: any = [
-    { title: 'habilidad 1', info: this.habilidad_1 },
-    { title: 'habilidad 2', info: this.habilidad_2 },
-    { title: 'habilidad 3', info: this.habilidad_3 },
+    { title: 'HARD SKILLS', info: this.hardSkills },
+    {title: 'SOFT SKILLS',info:this.softSkills}
   ];
   // FIN ESPANOL 
 
 
   // DEFAULT 
-  public skills: any = this.skillEnglish;
+  public skills: any = this.skillEspanol;
 
 
 

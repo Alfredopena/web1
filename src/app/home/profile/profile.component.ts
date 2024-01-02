@@ -23,8 +23,11 @@ export class ProfileComponent implements OnInit, OnChanges  {
   // You can use a HTML tags in 'data'
   public profileEnglish: any =
     {
-      title: 'ABOUT ME:', data: "<p>Finishing my last year of bachellor's degree in Computer Science"
-      + '<BR> Information Technologies track within the bachellors degree. </p>',
+      title: 'ABOUT ME:', data: "<p>Computer scientist, looking forward to making a difference"
+      + '<BR><br> Looking back, since I was a child, I had very different interests from my peers, and that led me to love the world of science very much.'
+      +'<br><br>Computer science, per se, is fascinating. There is only one requirement, to get out of the box, and therefore to be creative.'
+      +'<br><br>My greatest delight consists in mixing ideas, disciplines, thoughts, always trying to see the common link, to create wonderful things.'
+      +'<br><br>The only limit is illusory, something that without further ado falls upon us, without us even realising it.</p>',
       contact: 'CONTACT', sp: 'SOCIAL PROFILES'
     };
   

@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { Routes, RouterModule} from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './home/header/header/header.component';
+import { HeaderComponent } from './home/header/header.component';
 import { HomeComponent} from './home/home/home.component';
 import { HeadlineComponent} from './home/headline/headline.component';
 import { ProfileComponent } from './home/profile/profile.component';
@@ -11,6 +11,7 @@ import { ResumeComponent } from './home/resume/resume.component';
 import { SkillsComponent } from './home/skills/skills.component';
 import { AwardsComponent } from './home/awards/awards.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
+import { FormacionComponent } from './home/formacion/formacion.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent }
@@ -25,7 +26,8 @@ const routes: Routes = [
     ProfileComponent,
     ResumeComponent,
     SkillsComponent,
-    AwardsComponent
+    AwardsComponent,
+    FormacionComponent
   ],
   imports: [
     BrowserModule,
